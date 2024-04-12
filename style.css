@@ -206,27 +206,7 @@ nav .nav2 #search-bar {
   flex-direction: column;
 }
 
-.watch-film {
-  height: 2vw;
-  width: 25vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 1vw;
-  position: relative;
-  margin-top: 9vw;
-  margin: auto;
-  background-color: rgb(0, 0, 0);
-  border-radius: 2vw;
-  border: 2px solid white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.watch-film a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-}
+
 .top .content-ipad {
   height: 10vw;
   width: 30%;
@@ -278,27 +258,7 @@ nav .nav2 #search-bar {
   position: relative;
   animation: animeIn 1s forwards;
 }
-.watch-film {
-  height: 2.5vw;
-  width: 12vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 1vw;
-  position: relative;
-  margin-top: 9vw;
-  margin: auto;
-  background-color: rgb(0, 0, 0);
-  border-radius: 2vw;
-  border: 2px solid white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.watch-film a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-}
+
 .scrolldownmacbook{
   height: 7vw;
   width: 7vw;
@@ -379,7 +339,7 @@ position: fixed;
 
 
 /* Animation and Transition */
-@keyframes animeIn {
+/* @keyframes animeIn {
   from {
     transform: translateY(100%);
     opacity: 0;
@@ -421,7 +381,7 @@ position: fixed;
     filter: blur(0);
     transition: 0.3s;
   }
-}
+} */
 
 /* All hover Effect */
 .down-arrow:hover {
@@ -632,72 +592,76 @@ nav .nav2 #search-bar {
   background-color: #0000007a;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
 }
 
 .top h1 {
   color: #fff;
-  font-size: 5vw;
-  font-weight: 400;
-  margin-top: 30vw;
-margin-left: 8vw;
+  font-size: 6.5vw;
+  font-weight: 450;
+  margin-top: 38vw;
+  text-align: center;
+  margin-right: 8vw;
   position: relative;
+ 
+  
 }
 .top .content {
-  height: 20vw;
+  height: 35vw;
   width: 65%;
- margin-left: 8vw;
- margin-top: 8vw;
+  margin-top: 8vw;
   position: relative;
-  
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-}
-.top .content p {
-  color: white;
-  font-size: 3vw;
-  position: relative;
-  animation: animeIn 1s forwards;
-
-}
-.top .buttons {
-  height: 6vw;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left:8vw;
-  margin-top: 8vw;
-  position: relative;
-
+  margin-right: 8vw;
+  width: 100%;
 
  
 }
+.top .content p {
+  color: white;
+  font-size: 4.5vw;
+  position: relative;
+  animation: animeIn 1s forwards;
+  text-align: center;
+  font-weight: 400;
+  height: 100%;
+  width: 55%;
+
+
+}
+.top .buttons {
+  height: 9vw;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:8vw;
+  margin-top: 6vw;
+  position: relative;
+
+}
 .top .buttons .nextbtn,
 .prevbtn {
-  height: 4vw;
-  width: 5vw;
-  font-size: 1.5vw;
+  height: 8vw;
+  width: 10vw;
+  font-size: 3vw;
   background-color: white;
   border: none;
   cursor: pointer;
-  border-radius: 3vw;
   transition: 0.3s;
   color: black;
   position: relative;
-  
-}
+  }
 .buy-now {
-  height: 4vw;
-  width: 8vw;
-
-  font-size: 1.5vw;
+  height: 8vw;
+  width: 13vw;
+  font-size: 2.5vw;
   background-color: white;
   border: none;
   cursor: pointer;
-  border-radius: 2.3vw;
   transition: 0.3s;
   color: black;
   position: relative;
@@ -728,53 +692,41 @@ margin-left: 8vw;
   flex-direction: column;
 }
 
-.watch-film {
-  height: 7.5vw;
-  width: 35vw;
+
+.top .content-ipad {
+  height: 35vw;
+  width: 65%;
+  margin-top: 6vw;
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 3vw;
-  position: relative;
-  margin-top: 9vw;
-  margin: auto;
-  background-color: rgb(0, 0, 0);
-  border-radius: 2vw;
-  border: 2px solid white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.watch-film a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-}
-.top .content-ipad {
-  height: 20vw;
-  width: 65%;
- margin-left: 8vw;
- margin-top: 8vw;
-  position: relative;
-  
-  display: flex;
-  
+  justify-content: center;
+  margin-right: 8vw;
+  width: 100%;
+
+
  
 
 }
 .top .content-ipad p {
   color: white;
-  font-size: 3vw;
+  font-size: 4.5vw;
   position: relative;
   animation: animeIn 1s forwards;
+  text-align: center;
+  font-weight: 400;
+  height: 100%;
+  width: 70%;
+ 
 }
 .top #ipad-buttons{
-  height: 6vw;
-  width: 50%;
+  height: 9vw;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left:8vw;
-  margin-top: 2vw;
+  margin-right:8vw;
+  margin-top: 6vw;
   position: relative;
 }
 .scrolldownipad{
@@ -805,41 +757,28 @@ margin-left: 8vw;
 }
 
 .top .content-macbook {
-  height: 20vw;
+  height: 35vw;
   width: 65%;
- margin-left: 8vw;
- margin-top: 8vw;
+  margin-top: 6vw;
   position: relative;
-  
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8vw;
+  width: 100%;
+
 }
 .top .content-macbook p {
   color: white;
-  font-size: 3vw;
+  font-size: 4.5vw;
   position: relative;
   animation: animeIn 1s forwards;
+  text-align: center;
+  font-weight: 400;
+  height: 100%;
+  width: 70%;
 }
-.watch-film {
-  height: 7.5vw;
-  width: 35vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 3vw;
-  position: relative;
-  margin-top: 9vw;
-  margin: auto;
-  background-color: rgb(0, 0, 0);
-  border-radius: 2vw;
-  border: 1px solid white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.watch-film a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-}
+
 .scrolldownmacbook{
   
   height: 12vw;
@@ -860,13 +799,13 @@ margin-left: 8vw;
   cursor: none;
 }
 .top #macbook-buttons{
-  height: 6vw;
-  width: 50%;
+  height: 9vw;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left:8vw;
-  margin-top: 2vw;
+  margin-right:8vw;
+  margin-top: 4vw;
   position: relative;
 }
 
@@ -921,9 +860,10 @@ position: fixed;
   background-color: #fff;
   border: 1px solid black;
   border-radius: 1.5vw;
-  transition: 0.1s;
-}
-@keyframes animeIn {
+  transition: 0.1s;}
+
+
+/* @keyframes animeIn {
   from {
     transform: translateY(100%);
     opacity: 0;
@@ -965,7 +905,7 @@ position: fixed;
     filter: blur(0);
     transition: 0.3s;
   }
-}
+}  */
 
 /* All hover Effect */
 .down-arrow:hover {
@@ -976,8 +916,7 @@ position: fixed;
     cursor: pointer;
   }
   .top .buttons .nextbtn:hover {
-    background-color: #000;
-    color: white;
+    
     transform: scale(1.3);
   }
   .top .buttons .prevbtn:hover {
@@ -996,8 +935,8 @@ position: fixed;
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
+    height: 0.5px;
+    bottom: 1;
     left: 0;
     background-color: #ffffff;
     transform-origin: bottom right;

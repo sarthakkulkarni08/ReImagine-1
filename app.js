@@ -12,7 +12,9 @@ function welcomDiv(){
     
   }
   welcomDiv();
-    
+
+
+
   // Above Function is for when a user land on a site, a Div will be opened for welcome massage
   
   
@@ -284,9 +286,11 @@ function welcomDiv(){
   //-------------------------------------------------------------------------------------------------------
   }
   CodeofPage3()
+
+
+
+
   
-  
-  
-  
+
   
   
